@@ -110,12 +110,12 @@ export const constantRoutes = [
     name: "Course",
     meta: { title: "课程管理", icon: "form" },
     children: [
-      // {
-      //   path: "list",
-      //   name: "EduCourseList",
-      //   component: () => import("@/views/edu/course/list"),
-      //   meta: { title: "课程列表" },
-      // },
+      {
+        path: "list",
+        name: "EduCourseList",
+        component: () => import("@/views/edu/course/list"),
+        meta: { title: "课程列表" },
+      },
       // {
       //   path: "save",
       //   name: "EduCourseSave",
